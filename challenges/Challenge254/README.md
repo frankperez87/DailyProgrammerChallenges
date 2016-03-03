@@ -12,9 +12,14 @@ $atbash = new AtbashCipher();
  * Encoding A String
  */
  
-$result = $atbash->encode('abcdefghijklmnopqrstuvwxyz'); // returns 'zyxwvutsrqponmlkjihgfedcba'
-$result = $atbash->encode('foobar'); // returns 'ullyzi'
-$result = $atbash->encode('/r/dailyprogrammer'); // returns '/i/wzrobkiltiznnvi'
+// Returns String: 'zyxwvutsrqponmlkjihgfedcba'
+$result = $atbash->encode('abcdefghijklmnopqrstuvwxyz');
+
+// Returns String: 'ullyzi'
+$result = $atbash->encode('foobar');
+
+// Returns String: '/i/wzrobkiltiznnvi'
+$result = $atbash->encode('/r/dailyprogrammer'); 
 
 /**
  * Decoding A String
