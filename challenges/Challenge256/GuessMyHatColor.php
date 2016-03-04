@@ -34,7 +34,7 @@ class GuessMyHatColor
         $end = $this->getNumberOfUsers();
 
         for($i = $start; $i < $end; $i++) {
-            $colors[] = $this->users[$i];
+            $colors[] = $this->getColorForUser($i);
         }
 
         return $colors;
