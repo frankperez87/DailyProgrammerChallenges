@@ -2,8 +2,13 @@
 
 ### Easy Challenge: Atbash Cipher
 
+Link to Challenge: 
+https://www.reddit.com/r/dailyprogrammer/comments/45w6ad/20160216_challenge_254_easy_atbash_cipher/
+
 ##### Usage:
 ```php
+<?php
+
 use DailyProgrammer\Challenge254\AtbashCipher;
 
 $atbash = new AtbashCipher();
