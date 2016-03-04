@@ -5,6 +5,8 @@
 Link to Challenge:
 https://www.reddit.com/r/dailyprogrammer/comments/46zm8m/20160222_challenge_255_easy_playing_with_light/
 
+*Note: PHP 7 is the Minimum Requirement*
+
 ##### Usage:
 ```php
 <?php

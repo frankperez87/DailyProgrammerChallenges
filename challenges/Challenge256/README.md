@@ -5,6 +5,8 @@
 Link to Challenge:
 https://www.reddit.com/r/dailyprogrammer/comments/48l3u9/20160302_challenge_256_intermediate_guess_my_hat/
 
+*Note: PHP 7 is the Minimum Requirement*
+
 ##### Usage:
 ```php
 <?php
