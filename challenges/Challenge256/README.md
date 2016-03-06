@@ -69,3 +69,31 @@ do {
 
 } while($game);
 ```
+
+
+### Hard Challenge: RLE Obsession
+
+Link: 
+https://www.reddit.com/r/dailyprogrammer/comments/48w88o/20160304_challenge_256_hard_rle_obsession/
+
+##### Usage:
+```php
+use DailyProgrammer\Challenge256\RLEObsession;
+
+$rle = new RLEObsession();
+
+$rle->input(0, 0, 1, 0, 0, 0, 0, 1, 1, 1);
+
+// Outputs [2, 3, 7, 10]
+$output = $rle->outputRLI();
+
+$rle->input(0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1);
+
+// Outputs [8, 9, 10, 13, 14, 18, 19, 21, 22, 23, 24, 25, 26, 32]
+$output = $rle->outputRLI();
+
+$rle->input(1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1);
+
+// Outputs [0, 1, 25, 26, 31, 32]
+$output = $rle->outputRLI();
+```
